@@ -1,0 +1,166 @@
+# ============================================
+# .gitignore tổng hợp - Đặt ở thư mục gốc dự án
+# ============================================
+
+# ============ COMPILED OUTPUT ============
+/dist
+/build
+/out
+/.next
+*.tsbuildinfo
+next-env.d.ts
+
+# ============ DEPENDENCIES ============
+/node_modules
+/.pnp
+.pnp.*
+/.yarn/cache
+/.yarn/unplugged
+/.yarn/build-state.yml
+/.yarn/install-state.gz
+.pnpm-store/
+
+# Yarn 2+ (Berry)
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# ============ LOGS ============
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ============ ENVIRONMENT VARIABLES ============
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+
+# ============ OPERATING SYSTEM ============
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+desktop.ini
+
+# ============ TESTS & COVERAGE ============
+/coverage
+/.nyc_output
+*.lcov
+
+# ============ IDEs & EDITORS ============
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.c9/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# General IDE files
+*.swp
+*.swo
+*~
+
+# ============ RUNTIME DATA ============
+pids
+*.pid
+*.seed
+*.pid.lock
+*.sock
+
+# ============ TEMPORARY FILES ============
+.temp
+.tmp
+temp/
+tmp/
+*.tmp
+*.temp
+
+# ============ DIAGNOSTIC REPORTS ============
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# ============ NEXT.JS ============
+/.next/
+/out/
+.next/
+
+# ============ VERCEL ============
+.vercel
+
+# ============ SSL CERTIFICATES ============
+*.pem
+*.crt
+*.key
+
+# ============ PACKAGE MANAGER SPECIFIC ============
+# npm
+package-lock.json
+npm-shrinkwrap.json
+
+# pnpm
+pnpm-lock.yaml
+shrinkwrap.yaml
+
+# yarn
+yarn.lock
+yarn-error.log
+
+# ============ MISC ============
+.history/
+.cache/
+.parcel-cache/
+.vscode-test/
+*.tgz
+*.tar.gz
+*.zip
+*.rar
+
+# ============ OS SPECIFIC ============
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# macOS
+._*
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
